@@ -113,6 +113,67 @@
       <div class="outer">
         <section id="main" class="body-wrap">
   
+    <article id="post-Saas系统架构总结" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2019/06/12/Saas系统架构总结/">Saas系统架构总结</a>
+    </h1>
+  
+
+          
+      </header>
+    
+    <div class="article-entry " itemprop="articleBody">
+      
+        <div class="article-img">
+            <a href="/2019/06/12/Saas系统架构总结/">
+                
+                <img src="https://myphoto-jiahaofeng.oss-cn-shanghai.aliyuncs.com/hexo-myblog/computer.jpg" alt="Saas系统架构总结" title="Saas系统架构总结">
+                
+            </a>
+        </div>
+        <div class="article-feed">
+            <p>
+                1.分层设计saas系统分层大概是：
+
+租户识别&gt;应用层&gt;数据访问层&gt;缓存层&gt;数据库
+业务代码都是写在应用层。
+租户识别可以用spring拦截器实现，然后使用ThreadLocal传递给后端
+数据库和缓存层对应用层应该是透明的。程序员在写代码的时候，只关心业务逻辑，不应该担心多租户的问题。
+2.数据隔离要透明saas系统说起来很简单，任何系统似乎加...
+            </p>
+        </div>
+      
+        
+    </div>
+    <footer class="article-footer">
+        
+        <ul class="article-footer-menu">
+            
+                <li><i class="fa fa-calendar"></i>2019-06-12</li>
+            
+            
+  <li class="article-footer-tags">
+    <i class="fa fa-tags"></i>
+      
+    <a href="/tags/Saas平台/" class="color2">Saas平台</a>
+      
+  </li>
+
+        </ul>
+        
+            <a href="/2019/06/12/Saas系统架构总结/#more" class="article-more-link">more&gt;&gt;</a>
+        
+    </footer>
+  </div>
+</article>
+
+
+  
     <article id="post-搭建个人博客hexo教程" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-inner">
     
@@ -287,14 +348,14 @@ SaaS模式就像用自来水
 
 
   
-    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
+    <article id="post-Hello World" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2019/05/10/hello-world/">Hello World</a>
+      <a class="article-title" href="/2019/05/10/Hello World/">Hello World</a>
     </h1>
   
 
@@ -304,7 +365,7 @@ SaaS模式就像用自来水
     <div class="article-entry " itemprop="articleBody">
       
         <div class="article-img">
-            <a href="/2019/05/10/hello-world/">
+            <a href="/2019/05/10/Hello World/">
                 
                 <img src="http://jiahaofeng.github.io/images/banner.jpg" alt="Hello World" title="Hello World">
                 
@@ -327,7 +388,7 @@ SaaS模式就像用自来水
             
         </ul>
         
-            <a href="/2019/05/10/hello-world/#more" class="article-more-link">more&gt;&gt;</a>
+            <a href="/2019/05/10/Hello World/#more" class="article-more-link">more&gt;&gt;</a>
         
     </footer>
   </div>
@@ -392,7 +453,7 @@ SaaS模式就像用自来水
             
         </div>
         <div id="sidebar-menu-box-tags">
-            <a href="/tags/hexo/" style="font-size: 10px;">hexo</a> <a href="/tags/产品/" style="font-size: 10px;">产品</a> <a href="/tags/设计工具/" style="font-size: 10px;">设计工具</a>
+            <a href="/tags/Saas平台/" style="font-size: 10px;">Saas平台</a> <a href="/tags/hexo/" style="font-size: 10px;">hexo</a> <a href="/tags/产品/" style="font-size: 10px;">产品</a> <a href="/tags/设计工具/" style="font-size: 10px;">设计工具</a>
         </div>
     </div>
     <a href="javascript:;" class="sidebar-menu-box-close">&times;</a>
@@ -425,7 +486,7 @@ SaaS模式就像用自来水
     <div class="mobile-header-tag-container">
         <span class="title">Tags</span>
         <div id="mobile-header-container-tags">
-            <a href="/tags/hexo/" style="font-size: 10px;">hexo</a> <a href="/tags/产品/" style="font-size: 10px;">产品</a> <a href="/tags/设计工具/" style="font-size: 10px;">设计工具</a>
+            <a href="/tags/Saas平台/" style="font-size: 10px;">Saas平台</a> <a href="/tags/hexo/" style="font-size: 10px;">hexo</a> <a href="/tags/产品/" style="font-size: 10px;">产品</a> <a href="/tags/设计工具/" style="font-size: 10px;">设计工具</a>
         </div>
     </div>
 </div>
